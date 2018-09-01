@@ -32,11 +32,11 @@ App = {
   initContract: function () {
     $.getJSON('ERC721Token.json', function (data) {
       // Get the necessary contract artifact file and instantiate it with truffle-contract
-      var LandArtifact = data;
-      App.contracts.Land = TruffleContract(LandArtifact);
+      var PaintArtifact = data;
+      App.contracts.Paint = TruffleContract(PaintArtifact);
 
       // Set the provider for our contract
-      App.contracts.Land.setProvider(App.web3Provider);
+      App.contracts.Paint.setProvider(App.web3Provider);
 
       App.createContractInstance();
       return App.bindEvents();
@@ -47,7 +47,7 @@ App = {
 
 
   createContractInstance() {
-    App.contracts.Land.deployed()
+    App.contracts.Paint.deployed()
       .then(function (instance) {
         App.contractInstance = instance;
       });
@@ -73,7 +73,7 @@ App = {
 
 
 
-  // approve someone to deal with one of your lands;
+  // approve someone to deal with one of your paints;
   approve: function () {
     const key = $('#approve-key').val();
     const id = $('#approve-id').val();
@@ -89,7 +89,7 @@ App = {
 
 
 
-  // approve someone to deal with all of your lands;
+  // approve someone to deal with all of your paints;
   approveAll: function () {
     const key = $('#approve-all-key').val();
     App.contractInstance.setApprovalForAll(key, true).then(() => {
@@ -100,7 +100,7 @@ App = {
 
 
 
-  // check who has the permession for one land
+  // check who has the permession for one paint
   isApproved: function () {
     const id = $('#is-approved-id').val();
 
@@ -113,7 +113,7 @@ App = {
 
 
 
-  // check if someone is approved for all of your lands
+  // check if someone is approved for all of your paints
   isApprovedForAll: function () {
     const first = $('#is-approved-all-first').val();
     const second = $('#is-approved-all-second').val();
@@ -121,9 +121,9 @@ App = {
     App.contractInstance.isApprovedForAll(first, second).then((approved) => {
       App.setMessage();
       if (approved) {
-        App.msg.text('this user is approved for all lands');
+        App.msg.text('this user is approved for all paints');
       } else {
-        App.msg.text('this user is not approved for all lands');
+        App.msg.text('this user is not approved for all paints');
 
       }
     });
@@ -132,7 +132,7 @@ App = {
 
 
 
-  //check how many lands someone has
+  //check how many paints someone has
   getBalance: function () {
     const key = $('#balance-key').val();
     App.contractInstance.balanceOf(key).then((balance) => {
@@ -146,15 +146,15 @@ App = {
 
 
 
-  // check if the land is exist
+  // check if the paint is exist
   isExist: function () {
     const id = $('#exist-id').val();
     App.contractInstance.exists(id).then(exists => {
       App.setMessage();
       if (exists) {
-        App.msg.text('the records for this land is exists');
+        App.msg.text('the records for this paint is exists');
       } else {
-        App.msg.text('the records for this land is not exists');
+        App.msg.text('the records for this paint is not exists');
 
       }
     });
@@ -172,7 +172,7 @@ App = {
 
 
 
-  // enter the land id to get it's owner
+  // enter the paint id to get it's owner
   ownerById: function () {
     const id = $('#owner-id').val();
 
@@ -184,7 +184,7 @@ App = {
         });
       } else {
         App.setMessage();
-        App.msg.text('no such land records');
+        App.msg.text('no such paint records');
       }
     });
   },
@@ -192,7 +192,7 @@ App = {
 
 
 
-  // Transfer Ownership of a land from someone to someone else
+  // Transfer Ownership of a paint from someone to someone else
   transfer: function () {
     const from = $('#transfer-from').val();
     const to = $('#transfer-to').val();
@@ -205,7 +205,7 @@ App = {
 
 
 
-  // safe Transfer Ownership of a land from someone to someone else
+  // safe Transfer Ownership of a paint from someone to someone else
   safeTransfer: function () {
     const from = $('#safe-transfer-from').val();
     const to = $('#safe-transfer-to').val();
@@ -219,12 +219,12 @@ App = {
 
 
 
-  // safe Transfer Ownership of a land from someone to someone else
+  // safe Transfer Ownership of a paint from someone to someone else
 
   totalSupply: function () {
     App.contractInstance.totalSupply().then(data => {
       App.setMessage();
-      App.msg.text('there is ' + (data.toNumber()) + ' registerd lands');
+      App.msg.text('there is ' + (data.toNumber()) + ' registerd paints');
     });
   },
 

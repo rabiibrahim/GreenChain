@@ -15,33 +15,33 @@ $(document).ready(function () {
   let current = welcome;
   //handle toggle content;
   nav1.click(() => {
-    let LandsCount;
+    let PaintsCount;
     current.hide();
     content1.show();
     current = content1;
 
     App.contractInstance.totalSupply().then(data => {
-      LandsCount = data.toNumber()
+      PaintsCount = data.toNumber()
 
-      $.getJSON('lands.json', (data) => {
-        $('.lands').html('');
-        for (let i = 0; i <= LandsCount; i++) {
-          let land = data[i];
+      $.getJSON('paints.json', (data) => {
+        $('.paints').html('');
+        for (let i = 0; i <= PaintsCount; i++) {
+          let paints = data[i];
           let li = document.createElement('li');
           let location = document.createElement('h2');
           let type = document.createElement('h4');
           let area = document.createElement('h4');
           let price = document.createElement('h5');
-          location.innerText = land.location;
-          type.innerText = land.type;
-          area.innerText = land.area + " yard";
-          price.innerText = land.price + " $";
+          location.innerText = paint.location;
+          type.innerText = paint.type;
+          area.innerText = paint.area + " yard";
+          price.innerText = paint.price + " $";
           li.appendChild(location);
           li.appendChild(type);
           li.appendChild(area);
           li.appendChild(price);
           li.classList.add('card');
-          $('.lands').append(li);
+          $('.paints').append(li);
         }
       })
     });
