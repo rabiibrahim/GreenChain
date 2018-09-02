@@ -53,6 +53,7 @@ App = {
         $('.transfer-btn').click(App.transfer);
         $('.safe-transfer-btn').click(App.safeTransfer);
         $('.total-count').click(App.totalSupply);
+        $('.mint-token').click(App.tokenMint());
     },
 
 

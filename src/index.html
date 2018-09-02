@@ -36,13 +36,14 @@
                 <a href="#" id="nav-2">Approve</a>
             </li>
             <li>
-                <a href="#" id="nav-3">Check Ownership </a>
+                <a href="#" id="nav-3">Check Ownership</a>
             </li>
             <li>
                 <a href="#" id="nav-4">Transfer</a>
             </li>
-
             <li>
+                <a href="#" id="nav-5">Add Paint</a>
+            </li>
         </ul>
     </nav>
     <!-- /#sidebar-wrapper -->
@@ -59,7 +60,7 @@
                 <div class="col-lg-8">
                     <div class="row">
                         <br/><br/><br/>
-                        <h1 class="dalichain"> Dali Chain </h1>
+                        <h1 class="dalichain">Dali Chain</h1>
                         <h2>
                             Art connected!
                         </h2>
@@ -224,7 +225,23 @@
         </div>
         <hr>
     </div>
-
+    <div id="content-5" class="fadeIn">
+        <div class="mm-5">
+            <h3>Add paint to the Dali Chain</h3>
+            <div class="form-group">
+                <label for="new-paint-id">insert the paint id</label>
+                <input type="text" class="form-control" id="new-paint-id" placeholder="paint ID">
+            </div>
+            <div class="form-group">
+                <label for="approve-key">insert the public key of the new paint owner</label>
+                <input type="text" class="form-control" id="new-paint-owner-key" placeholder="public key">
+            </div>
+            <button class="btn btn-primary add-new-paint">
+                Add
+            </button>
+        </div>
+        <hr>
+    </div>
 </div>
 <!-- /#wrapper -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

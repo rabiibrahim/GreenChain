@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa|Russo+One');
+
 body {
     position: relative;
     overflow-x: hidden;
@@ -14,9 +15,9 @@ html {
     text-transform: capitalize;
 }
 
-.nav .open>a,
-.nav .open>a:hover,
-.nav .open>a:focus {
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
     background-color: transparent;
 }
 
@@ -132,7 +133,7 @@ html {
 }
 
 /*.sidebar-nav li:nth-child(3):before {*/
-    /*background: linear-gradient(90deg, #3494E6, #EC6EAD);*/
+/*background: linear-gradient(90deg, #3494E6, #EC6EAD);*/
 /*}*/
 /*
 .sidebar-nav li:nth-child(3):before {
@@ -190,7 +191,7 @@ html {
     background-color: transparent;
 }
 
-.sidebar-nav>.sidebar-brand {
+.sidebar-nav > .sidebar-brand {
     height: 65px;
     font-size: 20px;
     line-height: 44px;
@@ -349,7 +350,8 @@ html {
 #content-1,
 #content-2,
 #content-3,
-#content-4 {
+#content-4,
+#content-5goi {
     display: none;
 }
 
@@ -382,7 +384,7 @@ p {
 }
 
 .btn-primary {
-    background:#03396c;
+    background: #03396c;
     color: white;
     font-size: 20px;
     border: 0;
@@ -430,4 +432,7 @@ p {
 .paints h5 {
     color: #00d2ff;
 }
-img{max-width: 300px;}
+
+img {
+    max-width: 300px;
+}

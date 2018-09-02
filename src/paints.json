@@ -1,90 +1,90 @@
 [
-    {
-        "id": 1,
-        "name": "NA",
-        "painter": "Abed",
-        "price": 300,
-        "type": "industrial",
-        "date": "01/09/2018"
-    },
-    {
-        "id": 6,
-        "name": "Salvator Mundi",
-        "painter": "Leonardo da Vinci",
-        "price": 450,
-        "type": "realism",
-        "date": "15/11/2017"
-    },
-    {
-        "id": 11,
-        "name": "When Will You Marry?",
-        "painter": "Paul Gauguin",
-        "price": 213,
-        "type": "post-impressionist",
-        "date": "01/09/2014"
-    },
-    {
-        "id": 4,
-        "name": "The Card Players",
-        "painter": "Paul Cézanne",
-        "price": 270,
-        "type": "post-impressionist",
-        "date": "01/04/2011"
-    },
-    {
-        "id": 5,
-        "name": "Bal du moulin de la Galette",
-        "painter": "Pierre-Auguste Renoir",
-        "price": 130,
-        "type": "impressionist",
-        "date": "17/05/1990"
-    },
-    {
-        "id": 2,
-        "name": "Te Fare (La maison)",
-        "painter": "Paul Gauguin",
-        "price": 94.5,
-        "type": "land scape",
-        "date": "01/01/2008"
-    },
-    {
-        "id": 7,
-        "name": "Suprematist Composition",
-        "painter": "Kazimir Malevich",
-        "price": 85.8,
-        "type": "cubism",
-        "date": "15/05/2018"
-    },
-    {
-        "id": 8,
-        "name": "The Scream",
-        "painter": "Edvard Munch",
-        "price": 127.8,
-        "type": "abstract",
-        "date": "2/05/2012"
-    },
-    {
-        "id": 9,
-        "name": "Portrait of Dr. Gachet",
-        "painter": "Vincent van Gogh",
-        "price": 127.8,
-        "type": "abstract",
-        "date": "15/05/1990"
-    },
-    {
-        "id": 10,
-        "name": "NA 2",
-        "painter": "Abed",
-        "price": 10,
-        "type": "post-impressionist",
-        "date": "15/05/2018"
-    },
-    {
-        "id": 3,
-        "name": "Mona Lisa",
-        "painter": "Leonardo da Vinci",
-        "price": 785,
-        "type": "-",
-        "date": "1503"
-    }
+  {
+    "id": 1,
+    "name": "NA",
+    "painter": "Abed",
+    "price": 300,
+    "type": "industrial",
+    "date": "01/09/2018"
+  },
+  {
+    "id": 6,
+    "name": "Salvator Mundi",
+    "painter": "Leonardo da Vinci",
+    "price": 450,
+    "type": "realism",
+    "date": "15/11/2017"
+  },
+  {
+    "id": 11,
+    "name": "When Will You Marry?",
+    "painter": "Paul Gauguin",
+    "price": 213,
+    "type": "post-impressionist",
+    "date": "01/09/2014"
+  },
+  {
+    "id": 4,
+    "name": "The Card Players",
+    "painter": "Paul Cézanne",
+    "price": 270,
+    "type": "post-impressionist",
+    "date": "01/04/2011"
+  },
+  {
+    "id": 5,
+    "name": "Bal du moulin de la Galette",
+    "painter": "Pierre-Auguste Renoir",
+    "price": 130,
+    "type": "impressionist",
+    "date": "17/05/1990"
+  },
+  {
+    "id": 2,
+    "name": "Te Fare (La maison)",
+    "painter": "Paul Gauguin",
+    "price": 94.5,
+    "type": "land scape",
+    "date": "01/01/2008"
+  },
+  {
+    "id": 7,
+    "name": "Suprematist Composition",
+    "painter": "Kazimir Malevich",
+    "price": 85.8,
+    "type": "cubism",
+    "date": "15/05/2018"
+  },
+  {
+    "id": 8,
+    "name": "The Scream",
+    "painter": "Edvard Munch",
+    "price": 127.8,
+    "type": "abstract",
+    "date": "2/05/2012"
+  },
+  {
+    "id": 9,
+    "name": "Portrait of Dr. Gachet",
+    "painter": "Vincent van Gogh",
+    "price": 127.8,
+    "type": "abstract",
+    "date": "15/05/1990"
+  },
+  {
+    "id": 10,
+    "name": "NA 2",
+    "painter": "Abed",
+    "price": 10,
+    "type": "post-impressionist",
+    "date": "15/05/2018"
+  },
+  {
+    "id": 3,
+    "name": "Mona Lisa",
+    "painter": "Leonardo da Vinci",
+    "price": 785,
+    "type": "-",
+    "date": "1503"
+  }
 ]
