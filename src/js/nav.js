@@ -26,7 +26,7 @@ $(document).ready(function () {
             PaintsCount = data.toNumber();
             $.getJSON('paints.json', (data) => {
                 $('.paints').html('');
-                for (let i = 0; i <= PaintsCount; i++) {
+                for (let i = 0; i < PaintsCount; i++) {
                     let paint = data[i];
                     // html elemnts
                     let li = document.createElement('li');
