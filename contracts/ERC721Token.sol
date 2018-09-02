@@ -12,6 +12,8 @@ contract ERC721Token is SupportsInterfaceWithLookup, ERC721BasicToken, ERC721 {
 
   // Token symbol
   string internal symbol_;
+  
+  string internal owner_;
 
   // Mapping from owner to list of owned token IDs
   mapping(address => uint256[]) internal ownedTokens;
@@ -38,14 +40,15 @@ contract ERC721Token is SupportsInterfaceWithLookup, ERC721BasicToken, ERC721 {
     // register the supported interfaces to conform to ERC721 via ERC165
     _registerInterface(InterfaceId_ERC721Enumerable);
     _registerInterface(InterfaceId_ERC721Metadata);
-
+    owner_=msg.sender;
     for(uint i=0;i<=11;i++){
-      _mint(msg.sender, i);
+      _mint(owner_, i);
     }
 
   }
 
-    function tokenMint(address _to, uint256 _tokenId) external {
+  function tokenMint(address _to, uint256 _tokenId) external {
+    require(msg.sender == owner_);
     _mint(_to, _tokenId);    
   }
 
