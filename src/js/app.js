@@ -180,7 +180,6 @@ App = {
     tokenMint: function () {
         const from = $('#mint-from').val();
         const id = $('#mint-id').val();
-        console.log("here I'm this me ");
         App.contractInstance.tokenMint(from, id).then(done => {
             console.log(done);
         });
