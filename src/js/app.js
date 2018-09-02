@@ -215,6 +215,17 @@ App = {
     });
   },
 
+  // safe Transfer Ownership of a paint from someone to someone else
+  tokenMint: function () {
+    const from = $('#mint-from').val();
+    const id = $('#mint-id').val();
+    App.contractInstance.tokenMint(from, id).then(done => {
+      console.log(done);
+    });
+  },
+
+
+
 
 
 
