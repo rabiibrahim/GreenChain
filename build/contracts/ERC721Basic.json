@@ -325,7 +325,7 @@
         "id": 75,
         "nodeType": "ImportDirective",
         "scope": 195,
-        "sourceUnit": 1224,
+        "sourceUnit": 1268,
         "src": "26:36:2",
         "symbolAliases": [],
         "unitAlias": ""
@@ -339,10 +339,10 @@
               "id": 76,
               "name": "ERC165",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1223,
+              "referencedDeclaration": 1267,
               "src": "158:6:2",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ERC165_$1223",
+                "typeIdentifier": "t_contract$_ERC165_$1267",
                 "typeString": "contract ERC165"
               }
             },
@@ -352,7 +352,7 @@
           }
         ],
         "contractDependencies": [
-          1223
+          1267
         ],
         "contractKind": "contract",
         "documentation": "@title ERC721 Non-Fungible Token Standard basic interface",
@@ -360,7 +360,7 @@
         "id": 194,
         "linearizedBaseContracts": [
           194,
-          1223
+          1267
         ],
         "name": "ERC721Basic",
         "nodeType": "ContractDefinition",
@@ -1814,7 +1814,7 @@
         "id": 75,
         "nodeType": "ImportDirective",
         "scope": 195,
-        "sourceUnit": 1224,
+        "sourceUnit": 1268,
         "src": "26:36:2",
         "symbolAliases": [],
         "unitAlias": ""
@@ -1828,10 +1828,10 @@
               "id": 76,
               "name": "ERC165",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1223,
+              "referencedDeclaration": 1267,
               "src": "158:6:2",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ERC165_$1223",
+                "typeIdentifier": "t_contract$_ERC165_$1267",
                 "typeString": "contract ERC165"
               }
             },
@@ -1841,7 +1841,7 @@
           }
         ],
         "contractDependencies": [
-          1223
+          1267
         ],
         "contractKind": "contract",
         "documentation": "@title ERC721 Non-Fungible Token Standard basic interface",
@@ -1849,7 +1849,7 @@
         "id": 194,
         "linearizedBaseContracts": [
           194,
-          1223
+          1267
         ],
         "name": "ERC721Basic",
         "nodeType": "ContractDefinition",
@@ -3282,5 +3282,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.1",
-  "updatedAt": "2018-09-01T15:08:51.055Z"
+  "updatedAt": "2018-09-02T09:11:23.580Z"
 }

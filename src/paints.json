@@ -8,20 +8,20 @@
         "date": "01/09/2018"
     },
     {
-        "id": 2,
-        "name": "Te Fare (La maison)",
-        "painter": "Paul Gauguin",
-        "price": 94.5,
-        "type": "land scape",
-        "date": "01/01/2008"
+        "id": 6,
+        "name": "Salvator Mundi",
+        "painter": "Leonardo da Vinci",
+        "price": 450,
+        "type": "realism",
+        "date": "15/11/2017"
     },
     {
-        "id": 3,
-        "name": "Wasserschlangen II",
-        "painter": "Gustav Klimt",
-        "price": 194.5,
-        "type": "symbolism",
-        "date": "01/01/2012"
+        "id": 11,
+        "name": "When Will You Marry?",
+        "painter": "Paul Gauguin",
+        "price": 213,
+        "type": "post-impressionist",
+        "date": "01/09/2014"
     },
     {
         "id": 4,
@@ -40,12 +40,12 @@
         "date": "17/05/1990"
     },
     {
-        "id": 6,
-        "name": "Salvator Mundi",
-        "painter": "Leonardo da Vinci",
-        "price": 450,
-        "type": "realism",
-        "date": "15/11/2017"
+        "id": 2,
+        "name": "Te Fare (La maison)",
+        "painter": "Paul Gauguin",
+        "price": 94.5,
+        "type": "land scape",
+        "date": "01/01/2008"
     },
     {
         "id": 7,
@@ -80,11 +80,11 @@
         "date": "15/05/2018"
     },
     {
-        "id": 11,
-        "name": "When Will You Marry?",
-        "painter": "Paul Gauguin",
-        "price": 213,
-        "type": "post-impressionist",
-        "date": "01/09/2014"
+        "id": 3,
+        "name": "Mona Lisa",
+        "painter": "Leonardo da Vinci",
+        "price": 785,
+        "type": "-",
+        "date": "1503"
     }
 ]

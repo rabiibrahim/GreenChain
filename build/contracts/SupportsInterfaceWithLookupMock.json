@@ -59,14 +59,14 @@
     "absolutePath": "/home/malak/sites/rbkBlockchain/GreenChain/contracts/mocks/SupportsInterfaceWithLookupMock.sol",
     "exportedSymbols": {
       "SupportsInterfaceWithLookupMock": [
-        1540
+        1584
       ]
     },
-    "id": 1541,
+    "id": 1585,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1526,
+        "id": 1570,
         "literals": [
           "solidity",
           "^",
@@ -79,10 +79,10 @@
       {
         "absolutePath": "/home/malak/sites/rbkBlockchain/GreenChain/contracts/introspection/SupportsInterfaceWithLookup.sol",
         "file": "../introspection/SupportsInterfaceWithLookup.sol",
-        "id": 1527,
+        "id": 1571,
         "nodeType": "ImportDirective",
-        "scope": 1541,
-        "sourceUnit": 1275,
+        "scope": 1585,
+        "sourceUnit": 1319,
         "src": "26:58:14",
         "symbolAliases": [],
         "unitAlias": ""
@@ -93,40 +93,40 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 1528,
+              "id": 1572,
               "name": "SupportsInterfaceWithLookup",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1274,
+              "referencedDeclaration": 1318,
               "src": "131:27:14",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_SupportsInterfaceWithLookup_$1274",
+                "typeIdentifier": "t_contract$_SupportsInterfaceWithLookup_$1318",
                 "typeString": "contract SupportsInterfaceWithLookup"
               }
             },
-            "id": 1529,
+            "id": 1573,
             "nodeType": "InheritanceSpecifier",
             "src": "131:27:14"
           }
         ],
         "contractDependencies": [
-          1223,
-          1274
+          1267,
+          1318
         ],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 1540,
+        "id": 1584,
         "linearizedBaseContracts": [
-          1540,
-          1274,
-          1223
+          1584,
+          1318,
+          1267
         ],
         "name": "SupportsInterfaceWithLookupMock",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 1538,
+              "id": 1582,
               "nodeType": "Block",
               "src": "224:43:14",
               "statements": [
@@ -136,11 +136,11 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 1535,
+                        "id": 1579,
                         "name": "_interfaceId",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1531,
+                        "referencedDeclaration": 1575,
                         "src": "249:12:14",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes4",
@@ -155,18 +155,18 @@
                           "typeString": "bytes4"
                         }
                       ],
-                      "id": 1534,
+                      "id": 1578,
                       "name": "_registerInterface",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1273,
+                      "referencedDeclaration": 1317,
                       "src": "230:18:14",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_bytes4_$returns$__$",
                         "typeString": "function (bytes4)"
                       }
                     },
-                    "id": 1536,
+                    "id": 1580,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -180,14 +180,14 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1537,
+                  "id": 1581,
                   "nodeType": "ExpressionStatement",
                   "src": "230:32:14"
                 }
               ]
             },
             "documentation": null,
-            "id": 1539,
+            "id": 1583,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -195,15 +195,15 @@
             "name": "registerInterface",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1532,
+              "id": 1576,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1531,
+                  "id": 1575,
                   "name": "_interfaceId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1539,
+                  "scope": 1583,
                   "src": "190:19:14",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -212,7 +212,7 @@
                     "typeString": "bytes4"
                   },
                   "typeName": {
-                    "id": 1530,
+                    "id": 1574,
                     "name": "bytes4",
                     "nodeType": "ElementaryTypeName",
                     "src": "190:6:14",
@@ -229,19 +229,19 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 1533,
+              "id": 1577,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "224:0:14"
             },
-            "scope": 1540,
+            "scope": 1584,
             "src": "163:104:14",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 1541,
+        "scope": 1585,
         "src": "87:182:14"
       }
     ],
@@ -251,14 +251,14 @@
     "absolutePath": "/home/malak/sites/rbkBlockchain/GreenChain/contracts/mocks/SupportsInterfaceWithLookupMock.sol",
     "exportedSymbols": {
       "SupportsInterfaceWithLookupMock": [
-        1540
+        1584
       ]
     },
-    "id": 1541,
+    "id": 1585,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1526,
+        "id": 1570,
         "literals": [
           "solidity",
           "^",
@@ -271,10 +271,10 @@
       {
         "absolutePath": "/home/malak/sites/rbkBlockchain/GreenChain/contracts/introspection/SupportsInterfaceWithLookup.sol",
         "file": "../introspection/SupportsInterfaceWithLookup.sol",
-        "id": 1527,
+        "id": 1571,
         "nodeType": "ImportDirective",
-        "scope": 1541,
-        "sourceUnit": 1275,
+        "scope": 1585,
+        "sourceUnit": 1319,
         "src": "26:58:14",
         "symbolAliases": [],
         "unitAlias": ""
@@ -285,40 +285,40 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 1528,
+              "id": 1572,
               "name": "SupportsInterfaceWithLookup",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1274,
+              "referencedDeclaration": 1318,
               "src": "131:27:14",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_SupportsInterfaceWithLookup_$1274",
+                "typeIdentifier": "t_contract$_SupportsInterfaceWithLookup_$1318",
                 "typeString": "contract SupportsInterfaceWithLookup"
               }
             },
-            "id": 1529,
+            "id": 1573,
             "nodeType": "InheritanceSpecifier",
             "src": "131:27:14"
           }
         ],
         "contractDependencies": [
-          1223,
-          1274
+          1267,
+          1318
         ],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 1540,
+        "id": 1584,
         "linearizedBaseContracts": [
-          1540,
-          1274,
-          1223
+          1584,
+          1318,
+          1267
         ],
         "name": "SupportsInterfaceWithLookupMock",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 1538,
+              "id": 1582,
               "nodeType": "Block",
               "src": "224:43:14",
               "statements": [
@@ -328,11 +328,11 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 1535,
+                        "id": 1579,
                         "name": "_interfaceId",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1531,
+                        "referencedDeclaration": 1575,
                         "src": "249:12:14",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes4",
@@ -347,18 +347,18 @@
                           "typeString": "bytes4"
                         }
                       ],
-                      "id": 1534,
+                      "id": 1578,
                       "name": "_registerInterface",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1273,
+                      "referencedDeclaration": 1317,
                       "src": "230:18:14",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_bytes4_$returns$__$",
                         "typeString": "function (bytes4)"
                       }
                     },
-                    "id": 1536,
+                    "id": 1580,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -372,14 +372,14 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1537,
+                  "id": 1581,
                   "nodeType": "ExpressionStatement",
                   "src": "230:32:14"
                 }
               ]
             },
             "documentation": null,
-            "id": 1539,
+            "id": 1583,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -387,15 +387,15 @@
             "name": "registerInterface",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1532,
+              "id": 1576,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1531,
+                  "id": 1575,
                   "name": "_interfaceId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1539,
+                  "scope": 1583,
                   "src": "190:19:14",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -404,7 +404,7 @@
                     "typeString": "bytes4"
                   },
                   "typeName": {
-                    "id": 1530,
+                    "id": 1574,
                     "name": "bytes4",
                     "nodeType": "ElementaryTypeName",
                     "src": "190:6:14",
@@ -421,19 +421,19 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 1533,
+              "id": 1577,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "224:0:14"
             },
-            "scope": 1540,
+            "scope": 1584,
             "src": "163:104:14",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 1541,
+        "scope": 1585,
         "src": "87:182:14"
       }
     ],
@@ -445,5 +445,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.1",
-  "updatedAt": "2018-09-01T15:08:50.418Z"
+  "updatedAt": "2018-09-02T09:11:22.644Z"
 }

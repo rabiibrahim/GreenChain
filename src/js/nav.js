@@ -21,8 +21,8 @@ $(document).ready(function () {
         current = content1;
 
         App.contractInstance.totalSupply().then(data => {
-            PaintsCount = data.toNumber()
-
+            PaintsCount = data.toNumber();
+            console.log(data.length);
             $.getJSON('paints.json', (data) => {
                 $('.paints').html('');
                 for (let i = 0; i <= PaintsCount; i++) {
@@ -32,14 +32,14 @@ $(document).ready(function () {
                     let name = document.createElement('h2');
                     let type = document.createElement('h4');
                     let painter = document.createElement('h4');
-                    let art = document.createElement('h4');
+                    let art = document.createElement('img');
                     let price = document.createElement('h5');
 
                     // data
                     name.innerText = paint.name;
                     type.innerText = paint.type;
                     painter.innerText = paint.painter;
-                    art.innerText = paint.art;
+                    art.src = "img/" + paint.id + ".jpg";
                     price.innerText = paint.price + "Millon Dollars";
 
                     // append

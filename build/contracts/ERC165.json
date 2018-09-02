@@ -31,14 +31,14 @@
     "absolutePath": "/home/malak/sites/rbkBlockchain/GreenChain/contracts/introspection/ERC165.sol",
     "exportedSymbols": {
       "ERC165": [
-        1223
+        1267
       ]
     },
-    "id": 1224,
+    "id": 1268,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1215,
+        "id": 1259,
         "literals": [
           "solidity",
           "^",
@@ -54,9 +54,9 @@
         "contractKind": "interface",
         "documentation": "@title ERC165\n@dev https://github.com/ethereum/EIPs/blob/master/EIPS/eip-165.md",
         "fullyImplemented": false,
-        "id": 1223,
+        "id": 1267,
         "linearizedBaseContracts": [
-          1223
+          1267
         ],
         "name": "ERC165",
         "nodeType": "ContractDefinition",
@@ -64,7 +64,7 @@
           {
             "body": null,
             "documentation": "@notice Query if a contract implements an interface\n@param _interfaceId The interface identifier, as specified in ERC-165\n@dev Interface identification is specified in ERC-165. This function\nuses less than 30,000 gas.",
-            "id": 1222,
+            "id": 1266,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -72,15 +72,15 @@
             "name": "supportsInterface",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1218,
+              "id": 1262,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1217,
+                  "id": 1261,
                   "name": "_interfaceId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1222,
+                  "scope": 1266,
                   "src": "420:19:8",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -89,7 +89,7 @@
                     "typeString": "bytes4"
                   },
                   "typeName": {
-                    "id": 1216,
+                    "id": 1260,
                     "name": "bytes4",
                     "nodeType": "ElementaryTypeName",
                     "src": "420:6:8",
@@ -106,15 +106,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 1221,
+              "id": 1265,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1220,
+                  "id": 1264,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1222,
+                  "scope": 1266,
                   "src": "476:4:8",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -123,7 +123,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 1219,
+                    "id": 1263,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "476:4:8",
@@ -138,14 +138,14 @@
               ],
               "src": "475:6:8"
             },
-            "scope": 1223,
+            "scope": 1267,
             "src": "393:89:8",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "external"
           }
         ],
-        "scope": 1224,
+        "scope": 1268,
         "src": "121:363:8"
       }
     ],
@@ -155,14 +155,14 @@
     "absolutePath": "/home/malak/sites/rbkBlockchain/GreenChain/contracts/introspection/ERC165.sol",
     "exportedSymbols": {
       "ERC165": [
-        1223
+        1267
       ]
     },
-    "id": 1224,
+    "id": 1268,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1215,
+        "id": 1259,
         "literals": [
           "solidity",
           "^",
@@ -178,9 +178,9 @@
         "contractKind": "interface",
         "documentation": "@title ERC165\n@dev https://github.com/ethereum/EIPs/blob/master/EIPS/eip-165.md",
         "fullyImplemented": false,
-        "id": 1223,
+        "id": 1267,
         "linearizedBaseContracts": [
-          1223
+          1267
         ],
         "name": "ERC165",
         "nodeType": "ContractDefinition",
@@ -188,7 +188,7 @@
           {
             "body": null,
             "documentation": "@notice Query if a contract implements an interface\n@param _interfaceId The interface identifier, as specified in ERC-165\n@dev Interface identification is specified in ERC-165. This function\nuses less than 30,000 gas.",
-            "id": 1222,
+            "id": 1266,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -196,15 +196,15 @@
             "name": "supportsInterface",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1218,
+              "id": 1262,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1217,
+                  "id": 1261,
                   "name": "_interfaceId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1222,
+                  "scope": 1266,
                   "src": "420:19:8",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -213,7 +213,7 @@
                     "typeString": "bytes4"
                   },
                   "typeName": {
-                    "id": 1216,
+                    "id": 1260,
                     "name": "bytes4",
                     "nodeType": "ElementaryTypeName",
                     "src": "420:6:8",
@@ -230,15 +230,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 1221,
+              "id": 1265,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1220,
+                  "id": 1264,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1222,
+                  "scope": 1266,
                   "src": "476:4:8",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -247,7 +247,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 1219,
+                    "id": 1263,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "476:4:8",
@@ -262,14 +262,14 @@
               ],
               "src": "475:6:8"
             },
-            "scope": 1223,
+            "scope": 1267,
             "src": "393:89:8",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "external"
           }
         ],
-        "scope": 1224,
+        "scope": 1268,
         "src": "121:363:8"
       }
     ],
@@ -281,5 +281,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.1",
-  "updatedAt": "2018-09-01T15:08:50.409Z"
+  "updatedAt": "2018-09-02T09:11:22.640Z"
 }
