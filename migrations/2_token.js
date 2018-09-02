@@ -6,7 +6,6 @@ var ERC721Receiver = artifacts.require("./ERC721Receiver.sol");
 var ERC721Token = artifacts.require("./ERC721Token.sol");
 
 module.exports = function (deployer) {
-
     /**
      deployer.link(ERC721Token, ERC721)
      deployer.link(ERC721Token, ERC721Basic)

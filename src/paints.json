@@ -5,7 +5,7 @@
         "painter": "Abed",
         "price": 300000,
         "type": "industrial",
-        "date": "01/09/2018" 
+        "date": "01/09/2018"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "painter": "Paul Gauguin",
         "price": 94.5,
         "type": "land scape",
-        "date": "01/01/2008" 
+        "date": "01/01/2008"
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "painter": "Gustav Klimt",
         "price": 194.5,
         "type": "symbolism",
-        "date": "01/01/2012" 
+        "date": "01/01/2012"
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "painter": "Paul Cézanne",
         "price": 270,
         "type": "post-impressionist",
-        "date": "01/04/2011" 
+        "date": "01/04/2011"
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "painter": "Pierre-Auguste Renoir",
         "price": 130,
         "type": "impressionist",
-        "date": "17/05/1990" 
+        "date": "17/05/1990"
     },
     {
         "id": 6,
@@ -45,7 +45,7 @@
         "painter": "Leonardo da Vinci",
         "price": 450,
         "type": "realism",
-        "date": "15/11/2017"     
+        "date": "15/11/2017"
     },
     {
         "id": 7,
@@ -53,7 +53,7 @@
         "painter": "Kazimir Malevich",
         "price": 85.8,
         "type": "cubism",
-        "date": "15/05/2018"     
+        "date": "15/05/2018"
     },
     {
         "id": 8,
@@ -61,7 +61,7 @@
         "painter": "Edvard Munch",
         "price": 127.8,
         "type": "abstract",
-        "date": "2/05/2012"     
+        "date": "2/05/2012"
     },
     {
         "id": 9,
@@ -69,7 +69,7 @@
         "painter": "Vincent van Gogh",
         "price": 127.8,
         "type": "abstract",
-        "date": "15/05/1990" 
+        "date": "15/05/1990"
     },
     {
         "id": 10,
@@ -77,7 +77,7 @@
         "painter": "Abed",
         "price": 10,
         "type": "post-impressionist",
-        "date": "15/05/2018" 
+        "date": "15/05/2018"
     },
     {
         "id": 11,
@@ -85,7 +85,6 @@
         "painter": "Paul Gauguin",
         "price": 213,
         "type": "post-impressionist",
-        "date": "01/09/2014" 
-
-    },
+        "date": "01/09/2014"
+    }
 ]
