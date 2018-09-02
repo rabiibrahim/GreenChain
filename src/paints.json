@@ -1,86 +1,91 @@
 [
     {
         "id": 1,
-        "location": "Irbid",
-        "area": 20,
+        "name": "NA",
+        "painter": "Abed",
         "price": 300000,
-        "type": "industrial"
+        "type": "industrial",
+        "date": "01/09/2018" 
     },
     {
         "id": 2,
-        "location": "Zarqa'a",
-        "area": 34,
-        "price": 200000,
-        "type": "farm"
+        "name": "Te Fare (La maison)",
+        "painter": "Paul Gauguin",
+        "price": 94.5,
+        "type": "land scape",
+        "date": "01/01/2008" 
     },
     {
         "id": 3,
-        "location": "Amman",
-        "area": 23,
-        "price": 232000,
-        "type": "industrial"
+        "name": "Wasserschlangen II",
+        "painter": "Gustav Klimt",
+        "price": 194.5,
+        "type": "symbolism",
+        "date": "01/01/2012" 
     },
     {
         "id": 4,
-        "location": "Amman",
-        "area": 60,
-        "price": 750000,
-        "type": "farm"
+        "name": "The Card Players",
+        "painter": "Paul Cézanne",
+        "price": 270,
+        "type": "post-impressionist",
+        "date": "01/04/2011" 
     },
     {
         "id": 5,
-        "location": "Irbid",
-        "area": 94,
-        "price": 340000,
-        "type": "industrial"
+        "name": "Bal du moulin de la Galette",
+        "painter": "Pierre-Auguste Renoir",
+        "price": 130,
+        "type": "impressionist",
+        "date": "17/05/1990" 
     },
     {
         "id": 6,
-        "location": "Jarash",
-        "area": 133,
-        "price": 870000,
-        "type": "industrial"
+        "name": "Salvator Mundi",
+        "painter": "Leonardo da Vinci",
+        "price": 450,
+        "type": "realism",
+        "date": "15/11/2017"     
     },
     {
         "id": 7,
-        "location": "Amman",
-        "area": 25,
-        "price": 450000,
-        "type": "farm"
+        "name": "Suprematist Composition",
+        "painter": "Kazimir Malevich",
+        "price": 85.8,
+        "type": "cubism",
+        "date": "15/05/2018"     
     },
     {
         "id": 8,
-        "location": "Ajloun",
-        "area": 70,
-        "price": 65000,
-        "type": "industrial"
+        "name": "The Scream",
+        "painter": "Edvard Munch",
+        "price": 127.8,
+        "type": "abstract",
+        "date": "2/05/2012"     
     },
     {
         "id": 9,
-        "location": "Amman",
-        "area": 50,
-        "price": 340000,
-        "type": "industrial"
+        "name": "Portrait of Dr. Gachet",
+        "painter": "Vincent van Gogh",
+        "price": 127.8,
+        "type": "abstract",
+        "date": "15/05/1990" 
     },
     {
         "id": 10,
-        "location": "Amman",
-        "area": 46,
-        "price": 630000,
-        "type": "industrial"
+        "name": "NA",
+        "painter": "Abed",
+        "price": 10,
+        "type": "post-impressionist",
+        "date": "15/05/2018" 
     },
     {
         "id": 11,
-        "location": "mafraq",
-        "area": 46,
-        "price": 870000,
-        "type": "industrial"
+        "name": "When Will You Marry?",
+        "painter": "Paul Gauguin",
+        "price": 213,
+        "type": "post-impressionist",
+        "date": "01/09/2014" 
+
     },
-    {
-        "id": 12,
-        "location": "madaba",
-        "area": 46,
-        "price": 440000,
-        "type": "industrial"
-    }
 ]
