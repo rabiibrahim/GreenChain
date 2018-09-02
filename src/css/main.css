@@ -408,7 +408,7 @@ p {
 }
 
 .msg {
-    height: 150px;
+    min-height: 150px;
     width: 800px;
     font-size: 35px;
     padding: 45px;
@@ -419,6 +419,7 @@ p {
     background-color: #f2f2f2;
     color: #ec1b5a;
     box-shadow: 0 0 20px #555;
+    word-wrap: break-word;
 }
 
 .dalichain {
