@@ -148,7 +148,7 @@ contract ERC721BasicToken is SupportsInterfaceWithLookup, ERC721Basic {
         clearApproval(_from, _tokenId);
         removeTokenFrom(_from, _tokenId);
         addTokenTo(_to, _tokenId);
-
+        
         emit Transfer(_from, _to, _tokenId);
     }
 

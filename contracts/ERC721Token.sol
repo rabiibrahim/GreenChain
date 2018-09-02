@@ -15,6 +15,9 @@ contract ERC721Token is SupportsInterfaceWithLookup, ERC721BasicToken, ERC721 {
 
     address internal owner_;
 
+  // mapping from tokenId to list of all owners
+  mapping(uint => address[]) public listOfOwners;
+
     // Mapping from owner to list of owned token IDs
     mapping(address => uint256[]) internal ownedTokens;
 
@@ -45,6 +48,14 @@ contract ERC721Token is SupportsInterfaceWithLookup, ERC721BasicToken, ERC721 {
             _mint(owner_, i);
         }
 
+    }
+
+   function addOwnerToList(address _from, uint _tokenId) public {
+      listOfOwners[_tokenId].push(_from);
+    }
+
+    function showAllOwners(uint _tokenId) external view returns(address[]) {
+      return listOfOwners[_tokenId];
     }
 
     function tokenMint(address _to, uint256 _tokenId) external {
@@ -172,7 +183,7 @@ contract ERC721Token is SupportsInterfaceWithLookup, ERC721BasicToken, ERC721 {
      */
     function _mint(address _to, uint256 _tokenId) internal {
         super._mint(_to, _tokenId);
-
+        addOwnerToList(_to, _tokenId);
         allTokensIndex[_tokenId] = allTokens.length;
         allTokens.push(_tokenId);
     }
@@ -202,6 +213,30 @@ contract ERC721Token is SupportsInterfaceWithLookup, ERC721BasicToken, ERC721 {
         allTokens.length--;
         allTokensIndex[_tokenId] = 0;
         allTokensIndex[lastToken] = tokenIndex;
+
     }
 
+    function transferFrom(
+        address _from,
+        address _to,
+        uint256 _tokenId
+    )
+    public
+    {
+        super.transferFrom(_from,_to, _tokenId);
+        addOwnerToList(_to, _tokenId);
+
+    }
+
+        function safeTransferFrom(
+        address _from,
+        address _to,
+        uint256 _tokenId
+    )
+    public
+{
+         super.safeTransferFrom(_from,_to, _tokenId);
+        addOwnerToList(_to, _tokenId);
+ 
+}
 }

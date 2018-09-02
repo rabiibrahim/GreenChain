@@ -54,8 +54,18 @@ App = {
         $('.safe-transfer-btn').click(App.safeTransfer);
         $('.total-count').click(App.totalSupply);
         $('.mint-token').click(App.tokenMint);
+        $('.all-owners').click(App.listOfOwners);
     },
 
+    listOfOwners: function(){
+        const id = $('#all-owners-id').val();
+        App.contractInstance.showAllOwners(id).then(data => {
+          App.setMessage();
+          App.msg.text('lst of owners = '+ data);
+          console.log(data);
+      });
+
+    },
 
     // approve someone to deal with one of your paints;
     approve: function () {
