@@ -13,5 +13,5 @@ module.exports = function (deployer) {
      deployer.link(ERC721Token, ERC721Holder)
      deployer.link(ERC721Token, ERC721Receiver)
      */
-    deployer.deploy(ERC721Token, "paint", "pt");
+    deployer.deploy(ERC721Token, "paint", "PT");
 }
