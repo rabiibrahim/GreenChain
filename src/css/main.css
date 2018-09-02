@@ -7,7 +7,7 @@ body {
 body,
 html {
     height: 100%;
-    background: linear-gradient(90deg, #ECE9E6, #E9E4F0);
+    background: #b3cde0;
     font-family: 'Comfortaa', cursive;
     text-align: center;
 }
@@ -364,12 +364,12 @@ html {
 
 label {
     margin-top: 40px;
-    color: #164059;
+    color: #03396c;
 }
 
 h1 {
     font-size: 60px;
-    color: #ec1b5a;
+    color: #005b96;
     margin: 0px auto 100px auto;
 }
 
@@ -378,7 +378,7 @@ p {
 }
 
 .btn-primary {
-    background: linear-gradient(90deg, #00d2ff, #928DAB);
+    background:#03396c;
     color: white;
     font-size: 20px;
     border: 0;
@@ -416,7 +416,7 @@ p {
 }
 
 .dalichain {
-    color: #00d2ff;
+    color: #005b96;
 }
 
 .paints h2 {
@@ -426,3 +426,4 @@ p {
 .paints h5 {
     color: #00d2ff;
 }
+img{max-width: 300px;}
