@@ -61,7 +61,7 @@ App = {
         const id = $('#all-owners-id').val();
         App.contractInstance.showAllOwners(id).then(data => {
           App.setMessage();
-          App.msg.text('lst of owners = '+ data);
+          App.msg.text('list of owners = '+ data);
           console.log(data);
       });
 
