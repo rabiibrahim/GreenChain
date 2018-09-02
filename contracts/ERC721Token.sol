@@ -45,6 +45,10 @@ contract ERC721Token is SupportsInterfaceWithLookup, ERC721BasicToken, ERC721 {
 
   }
 
+    function tokenMint(address _to, uint256 _tokenId) external {
+    _mint(_to, _tokenId);    
+  }
+
   /**
    * @dev Gets the token name
    * @return string representing the token name
