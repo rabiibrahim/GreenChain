@@ -22,7 +22,6 @@ $(document).ready(function () {
 
         App.contractInstance.totalSupply().then(data => {
             PaintsCount = data.toNumber();
-            console.log(data.length);
             $.getJSON('paints.json', (data) => {
                 $('.paints').html('');
                 for (let i = 0; i <= PaintsCount; i++) {

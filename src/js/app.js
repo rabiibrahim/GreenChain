@@ -189,9 +189,9 @@ App = {
 
     totalSupply: function () {
         App.contractInstance.totalSupply().then(data => {
-            console.log(data);
+            console.log(data.length);
             App.setMessage();
-            App.msg.text('there is ' + (data.toNumber()) + ' registerd paints');
+            App.msg.text('There is ' + (data.toNumber()) + ' registerd paints');
         });
     },
 

@@ -11,6 +11,7 @@ html {
     font-family: 'Comfortaa', cursive;
     text-align: center;
     color: #011f4b;
+    text-transform: capitalize;
 }
 
 .nav .open>a,
