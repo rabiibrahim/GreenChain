@@ -26,13 +26,13 @@ $(document).ready(function () {
       $.getJSON('paints.json', (data) => {
         $('.paints').html('');
         for (let i = 0; i <= PaintsCount; i++) {
-          let paints = data[i];
+          let paint = data[i];
           let li = document.createElement('li');
           let location = document.createElement('h2');
           let type = document.createElement('h4');
           let area = document.createElement('h4');
           let price = document.createElement('h5');
-          location.innerText = paint.location;
+          location.innerText = paint.id;
           type.innerText = paint.type;
           area.innerText = paint.area + " yard";
           price.innerText = paint.price + " $";
