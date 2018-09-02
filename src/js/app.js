@@ -161,7 +161,7 @@ App = {
         const from = $('#transfer-from').val();
         const to = $('#transfer-to').val();
         const id = $('#transfer-id').val();
-        App.contractInstance.transfer(from, to, id);
+        App.contractInstance.transferFrom(from, to, id);
 
 
     },
