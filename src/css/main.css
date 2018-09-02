@@ -10,6 +10,7 @@ html {
     background: #b3cde0;
     font-family: 'Comfortaa', cursive;
     text-align: center;
+    color: #011f4b;
 }
 
 .nav .open>a,
@@ -49,7 +50,7 @@ html {
     margin-left: -220px;
     overflow-y: auto;
     overflow-x: hidden;
-    background: #071826;
+    background: #011f4b;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -82,7 +83,7 @@ html {
     background-color: white;
     margin: 10px;
     display: inline-block;
-    border-top: 10px solid #071826;
+    border-top: 10px solid #011f4b;
 }
 
 /*-------------------------------*/
@@ -124,13 +125,13 @@ html {
 
 .sidebar-nav li:first-child a {
     color: #fff;
-    background: linear-gradient(90deg, #c0c0aa, #1cefff);
+    background: #005b96;
 }
 
-.sidebar-nav li:nth-child(2):before {
-    background: linear-gradient(90deg, #3494E6, #EC6EAD);
-}
-
+/*.sidebar-nav li:nth-child(3):before {*/
+    /*background: linear-gradient(90deg, #3494E6, #EC6EAD);*/
+/*}*/
+/*
 .sidebar-nav li:nth-child(3):before {
     background: linear-gradient(90deg, #00d2ff, #928DAB);
 }
@@ -157,7 +158,7 @@ html {
 
 .sidebar-nav li:nth-child(9):before {
     background-color: #35acdf;
-}
+}*/
 
 .sidebar-nav li:hover:before,
 .sidebar-nav li.open:hover:before {
